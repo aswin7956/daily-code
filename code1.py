@@ -1,6 +1,4 @@
 # leetcode 15. 3Sum
-
-
 class Solution(object):
     def threeSum(self, nums):  
         a = []  #initialize empty list
