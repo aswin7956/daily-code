@@ -1,3 +1,4 @@
+#Leetcode 1. Two Sum
 class Solution:
     def twoSum(self, nums, target):
         s = {}  #map to store index with val
