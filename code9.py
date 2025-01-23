@@ -13,7 +13,7 @@ class Solution:
                 nums1.append(nums2[j]) #when i is exhauseted append all remaining elemts of nums2
                 j+=1
                 continue
-            if nums1[i] < nums2[j]:
+            if nums1[i] < nums2[j]: 
                 i += 1 
                 continue  
             else:
