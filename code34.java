@@ -4,7 +4,9 @@ public class Main {
         for (int i = 0; i < s1.length(); i++) { // iterate over first str
             for (int j = i + 1; j <= s1.length(); j++) { // iterate i+1 to end
                 String substr = s1.substring(i, j); // get all possible substrings
+                //System.out.println(substr);// 
                 if (s2.contains(substr) && substr.length() > LCS.length()) { // if substr found and is greater than current max length
+                    //System.out.println(substr);
                     LCS = substr; // update
                 }
             }
